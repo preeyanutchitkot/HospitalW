@@ -125,7 +125,7 @@ Partial Class FormHome
         'btnWard
         '
         Me.btnWard.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnWard.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnWard.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnWard.Location = New System.Drawing.Point(3, 124)
         Me.btnWard.Name = "btnWard"
         Me.btnWard.Size = New System.Drawing.Size(177, 44)
@@ -136,7 +136,7 @@ Partial Class FormHome
         'btnPatient
         '
         Me.btnPatient.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnPatient.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnPatient.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPatient.Location = New System.Drawing.Point(3, 174)
         Me.btnPatient.Name = "btnPatient"
         Me.btnPatient.Size = New System.Drawing.Size(177, 44)
@@ -147,7 +147,7 @@ Partial Class FormHome
         'btnTreatment
         '
         Me.btnTreatment.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnTreatment.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnTreatment.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnTreatment.Location = New System.Drawing.Point(3, 224)
         Me.btnTreatment.Name = "btnTreatment"
         Me.btnTreatment.Size = New System.Drawing.Size(177, 44)
@@ -158,7 +158,7 @@ Partial Class FormHome
         'btnPayment
         '
         Me.btnPayment.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnPayment.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnPayment.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPayment.Location = New System.Drawing.Point(3, 274)
         Me.btnPayment.Name = "btnPayment"
         Me.btnPayment.Size = New System.Drawing.Size(177, 44)
@@ -169,7 +169,7 @@ Partial Class FormHome
         'btnStaff
         '
         Me.btnStaff.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnStaff.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnStaff.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStaff.Location = New System.Drawing.Point(3, 324)
         Me.btnStaff.Name = "btnStaff"
         Me.btnStaff.Size = New System.Drawing.Size(177, 44)
@@ -180,7 +180,7 @@ Partial Class FormHome
         'btnShift
         '
         Me.btnShift.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnShift.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnShift.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnShift.Location = New System.Drawing.Point(3, 374)
         Me.btnShift.Name = "btnShift"
         Me.btnShift.Size = New System.Drawing.Size(177, 44)
@@ -191,7 +191,7 @@ Partial Class FormHome
         'btnMedecine
         '
         Me.btnMedecine.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnMedecine.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnMedecine.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMedecine.Location = New System.Drawing.Point(3, 424)
         Me.btnMedecine.Name = "btnMedecine"
         Me.btnMedecine.Size = New System.Drawing.Size(177, 44)
@@ -202,7 +202,7 @@ Partial Class FormHome
         'btnItem
         '
         Me.btnItem.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnItem.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnItem.Location = New System.Drawing.Point(3, 474)
         Me.btnItem.Name = "btnItem"
         Me.btnItem.Size = New System.Drawing.Size(177, 44)
@@ -213,7 +213,7 @@ Partial Class FormHome
         'btnProduct
         '
         Me.btnProduct.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnProduct.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnProduct.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnProduct.Location = New System.Drawing.Point(3, 524)
         Me.btnProduct.Name = "btnProduct"
         Me.btnProduct.Size = New System.Drawing.Size(177, 44)
@@ -224,7 +224,7 @@ Partial Class FormHome
         'btnSuplier
         '
         Me.btnSuplier.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.btnSuplier.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
+        Me.btnSuplier.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSuplier.Location = New System.Drawing.Point(3, 574)
         Me.btnSuplier.Name = "btnSuplier"
         Me.btnSuplier.Size = New System.Drawing.Size(177, 47)
