@@ -22,6 +22,7 @@ Partial Class FormPatient
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Ward = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -61,8 +62,27 @@ Partial Class FormPatient
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.DbWellmedowsDataSet = New HospitalW.dbWellmedowsDataSet()
+        Me.PatientBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.PatientTableAdapter = New HospitalW.dbWellmedowsDataSetTableAdapters.patientTableAdapter()
+        Me.TableAdapterManager = New HospitalW.dbWellmedowsDataSetTableAdapters.TableAdapterManager()
+        Me.PatientDataGridView = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
+        CType(Me.DbWellmedowsDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PatientBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PatientDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Ward
@@ -110,12 +130,12 @@ Partial Class FormPatient
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Location = New System.Drawing.Point(35, 59)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1096, 330)
+        Me.Panel2.Size = New System.Drawing.Size(1096, 301)
         Me.Panel2.TabIndex = 2
         '
         'Button9
         '
-        Me.Button9.BackColor = System.Drawing.Color.PaleVioletRed
+        Me.Button9.BackColor = System.Drawing.Color.HotPink
         Me.Button9.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button9.Location = New System.Drawing.Point(897, 111)
         Me.Button9.Name = "Button9"
@@ -145,9 +165,9 @@ Partial Class FormPatient
         'Button8
         '
         Me.Button8.BackColor = System.Drawing.Color.HotPink
-        Me.Button8.Location = New System.Drawing.Point(854, 236)
+        Me.Button8.Location = New System.Drawing.Point(855, 233)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(106, 30)
+        Me.Button8.Size = New System.Drawing.Size(106, 33)
         Me.Button8.TabIndex = 27
         Me.Button8.Text = "Search"
         Me.Button8.UseVisualStyleBackColor = False
@@ -424,7 +444,7 @@ Partial Class FormPatient
         '
         'Button7
         '
-        Me.Button7.BackColor = System.Drawing.Color.Pink
+        Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Button7.Location = New System.Drawing.Point(939, 15)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(151, 33)
@@ -434,7 +454,7 @@ Partial Class FormPatient
         '
         'Button6
         '
-        Me.Button6.BackColor = System.Drawing.Color.Pink
+        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Button6.Location = New System.Drawing.Point(758, 15)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(161, 33)
@@ -444,7 +464,7 @@ Partial Class FormPatient
         '
         'Button5
         '
-        Me.Button5.BackColor = System.Drawing.Color.Pink
+        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Button5.Location = New System.Drawing.Point(604, 15)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(130, 33)
@@ -454,7 +474,7 @@ Partial Class FormPatient
         '
         'Button4
         '
-        Me.Button4.BackColor = System.Drawing.Color.Pink
+        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Button4.Location = New System.Drawing.Point(437, 15)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(148, 33)
@@ -464,7 +484,7 @@ Partial Class FormPatient
         '
         'Button10
         '
-        Me.Button10.BackColor = System.Drawing.Color.Pink
+        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Button10.Location = New System.Drawing.Point(274, 15)
         Me.Button10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button10.Name = "Button10"
@@ -473,12 +493,155 @@ Partial Class FormPatient
         Me.Button10.Text = "Patient Insurance"
         Me.Button10.UseVisualStyleBackColor = False
         '
+        'DbWellmedowsDataSet
+        '
+        Me.DbWellmedowsDataSet.DataSetName = "dbWellmedowsDataSet"
+        Me.DbWellmedowsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'PatientBindingSource
+        '
+        Me.PatientBindingSource.DataMember = "patient"
+        Me.PatientBindingSource.DataSource = Me.DbWellmedowsDataSet
+        '
+        'PatientTableAdapter
+        '
+        Me.PatientTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.billTableAdapter = Nothing
+        Me.TableAdapterManager.hospitalTableAdapter = Nothing
+        Me.TableAdapterManager.job_experienceTableAdapter = Nothing
+        Me.TableAdapterManager.localdoctorTableAdapter = Nothing
+        Me.TableAdapterManager.medicalTableAdapter = Nothing
+        Me.TableAdapterManager.nextofkinTableAdapter = Nothing
+        Me.TableAdapterManager.outpatientclinicTableAdapter = Nothing
+        Me.TableAdapterManager.patientappointmentsTableAdapter = Nothing
+        Me.TableAdapterManager.patientinsuranceTableAdapter = Nothing
+        Me.TableAdapterManager.patientTableAdapter = Me.PatientTableAdapter
+        Me.TableAdapterManager.paymentTableAdapter = Nothing
+        Me.TableAdapterManager.pharmaceuticalsupplyTableAdapter = Nothing
+        Me.TableAdapterManager.qualificationTableAdapter = Nothing
+        Me.TableAdapterManager.requisition_pharmaceuticalTableAdapter = Nothing
+        Me.TableAdapterManager.requisition_surgicalTableAdapter = Nothing
+        Me.TableAdapterManager.staff_qualificationTableAdapter = Nothing
+        Me.TableAdapterManager.staff_shiftTableAdapter = Nothing
+        Me.TableAdapterManager.staffTableAdapter = Nothing
+        Me.TableAdapterManager.supplierTableAdapter = Nothing
+        Me.TableAdapterManager.surgicalsupplyTableAdapter = Nothing
+        Me.TableAdapterManager.UpdateOrder = HospitalW.dbWellmedowsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        Me.TableAdapterManager.wardrequisitionTableAdapter = Nothing
+        Me.TableAdapterManager.wardTableAdapter = Nothing
+        '
+        'PatientDataGridView
+        '
+        Me.PatientDataGridView.AutoGenerateColumns = False
+        Me.PatientDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.PatientDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7, Me.DataGridViewTextBoxColumn8, Me.DataGridViewTextBoxColumn9, Me.DataGridViewTextBoxColumn10, Me.DataGridViewTextBoxColumn11})
+        Me.PatientDataGridView.DataSource = Me.PatientBindingSource
+        Me.PatientDataGridView.Location = New System.Drawing.Point(35, 366)
+        Me.PatientDataGridView.Name = "PatientDataGridView"
+        Me.PatientDataGridView.RowHeadersWidth = 51
+        Me.PatientDataGridView.RowTemplate.Height = 24
+        Me.PatientDataGridView.Size = New System.Drawing.Size(1096, 355)
+        Me.PatientDataGridView.TabIndex = 33
+        '
+        'DataGridViewTextBoxColumn1
+        '
+        Me.DataGridViewTextBoxColumn1.DataPropertyName = "p_id"
+        Me.DataGridViewTextBoxColumn1.HeaderText = "p_id"
+        Me.DataGridViewTextBoxColumn1.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.Width = 125
+        '
+        'DataGridViewTextBoxColumn2
+        '
+        Me.DataGridViewTextBoxColumn2.DataPropertyName = "p_name"
+        Me.DataGridViewTextBoxColumn2.HeaderText = "p_name"
+        Me.DataGridViewTextBoxColumn2.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        Me.DataGridViewTextBoxColumn2.Width = 125
+        '
+        'DataGridViewTextBoxColumn3
+        '
+        Me.DataGridViewTextBoxColumn3.DataPropertyName = "p_address"
+        Me.DataGridViewTextBoxColumn3.HeaderText = "p_address"
+        Me.DataGridViewTextBoxColumn3.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        Me.DataGridViewTextBoxColumn3.Width = 125
+        '
+        'DataGridViewTextBoxColumn4
+        '
+        Me.DataGridViewTextBoxColumn4.DataPropertyName = "p_tel"
+        Me.DataGridViewTextBoxColumn4.HeaderText = "p_tel"
+        Me.DataGridViewTextBoxColumn4.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        Me.DataGridViewTextBoxColumn4.Width = 125
+        '
+        'DataGridViewTextBoxColumn5
+        '
+        Me.DataGridViewTextBoxColumn5.DataPropertyName = "p_date_of_birth"
+        Me.DataGridViewTextBoxColumn5.HeaderText = "p_date_of_birth"
+        Me.DataGridViewTextBoxColumn5.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        Me.DataGridViewTextBoxColumn5.Width = 125
+        '
+        'DataGridViewTextBoxColumn6
+        '
+        Me.DataGridViewTextBoxColumn6.DataPropertyName = "p_sex"
+        Me.DataGridViewTextBoxColumn6.HeaderText = "p_sex"
+        Me.DataGridViewTextBoxColumn6.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        Me.DataGridViewTextBoxColumn6.Width = 125
+        '
+        'DataGridViewTextBoxColumn7
+        '
+        Me.DataGridViewTextBoxColumn7.DataPropertyName = "p_marital_status"
+        Me.DataGridViewTextBoxColumn7.HeaderText = "p_marital_status"
+        Me.DataGridViewTextBoxColumn7.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        Me.DataGridViewTextBoxColumn7.Width = 125
+        '
+        'DataGridViewTextBoxColumn8
+        '
+        Me.DataGridViewTextBoxColumn8.DataPropertyName = "typeof_patient"
+        Me.DataGridViewTextBoxColumn8.HeaderText = "typeof_patient"
+        Me.DataGridViewTextBoxColumn8.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn8.Name = "DataGridViewTextBoxColumn8"
+        Me.DataGridViewTextBoxColumn8.Width = 125
+        '
+        'DataGridViewTextBoxColumn9
+        '
+        Me.DataGridViewTextBoxColumn9.DataPropertyName = "l_id"
+        Me.DataGridViewTextBoxColumn9.HeaderText = "l_id"
+        Me.DataGridViewTextBoxColumn9.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn9.Name = "DataGridViewTextBoxColumn9"
+        Me.DataGridViewTextBoxColumn9.Width = 125
+        '
+        'DataGridViewTextBoxColumn10
+        '
+        Me.DataGridViewTextBoxColumn10.DataPropertyName = "insurance_id"
+        Me.DataGridViewTextBoxColumn10.HeaderText = "insurance_id"
+        Me.DataGridViewTextBoxColumn10.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn10.Name = "DataGridViewTextBoxColumn10"
+        Me.DataGridViewTextBoxColumn10.Width = 125
+        '
+        'DataGridViewTextBoxColumn11
+        '
+        Me.DataGridViewTextBoxColumn11.DataPropertyName = "n_id"
+        Me.DataGridViewTextBoxColumn11.HeaderText = "n_id"
+        Me.DataGridViewTextBoxColumn11.MinimumWidth = 6
+        Me.DataGridViewTextBoxColumn11.Name = "DataGridViewTextBoxColumn11"
+        Me.DataGridViewTextBoxColumn11.Width = 125
+        '
         'FormPatient
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightBlue
-        Me.ClientSize = New System.Drawing.Size(1199, 675)
+        Me.ClientSize = New System.Drawing.Size(1159, 749)
+        Me.Controls.Add(Me.PatientDataGridView)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Ward)
@@ -491,6 +654,9 @@ Partial Class FormPatient
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.TableLayoutPanel1.ResumeLayout(False)
+        CType(Me.DbWellmedowsDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PatientBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PatientDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -533,4 +699,20 @@ Partial Class FormPatient
     Friend WithEvents Label11 As Label
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
+    Friend WithEvents DbWellmedowsDataSet As dbWellmedowsDataSet
+    Friend WithEvents PatientBindingSource As BindingSource
+    Friend WithEvents PatientTableAdapter As dbWellmedowsDataSetTableAdapters.patientTableAdapter
+    Friend WithEvents TableAdapterManager As dbWellmedowsDataSetTableAdapters.TableAdapterManager
+    Friend WithEvents PatientDataGridView As DataGridView
+    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn5 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn6 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn7 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn8 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn9 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn10 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn11 As DataGridViewTextBoxColumn
 End Class

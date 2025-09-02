@@ -73,6 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dbWellmedowsDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbWellmedowsDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="FormAppointments.Designer.vb">
       <DependentUpon>FormAppointments.vb</DependentUpon>
     </Compile>
@@ -343,6 +348,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="dbWellmedowsDataSet2.xsc">
+      <DependentUpon>dbWellmedowsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbWellmedowsDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbWellmedowsDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbWellmedowsDataSet2.xss">
+      <DependentUpon>dbWellmedowsDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

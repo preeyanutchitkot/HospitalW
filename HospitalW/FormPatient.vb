@@ -3,6 +3,8 @@ Public Class FormPatient
 
 
     Private Sub FormPatient_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'DbWellmedowsDataSet.patient' table. You can move, or remove it, as needed.
+        Me.PatientTableAdapter.Fill(Me.DbWellmedowsDataSet.patient)
 
     End Sub
 
@@ -35,6 +37,13 @@ Public Class FormPatient
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+
+    End Sub
+
+    Private Sub PatientBindingNavigatorSaveItem_Click(sender As Object, e As EventArgs) 
+        Me.Validate()
+        Me.PatientBindingSource.EndEdit()
+        Me.TableAdapterManager.UpdateAll(Me.DbWellmedowsDataSet)
 
     End Sub
 End Class
