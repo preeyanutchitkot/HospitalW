@@ -22,9 +22,29 @@ Partial Class FormShifting
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.SuspendLayout()
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.LightCyan
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel3.Location = New System.Drawing.Point(0, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(1181, 675)
+        Me.Panel3.TabIndex = 3
+        '
+        'FormShifting
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1181, 675)
+        Me.Controls.Add(Me.Panel3)
+        Me.Name = "FormShifting"
         Me.Text = "FormShifting"
+        Me.ResumeLayout(False)
+
     End Sub
+
+    Friend WithEvents Panel3 As Panel
 End Class

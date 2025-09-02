@@ -22,16 +22,29 @@ Partial Class FormWard
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.Panel3 = New System.Windows.Forms.Panel()
         Me.SuspendLayout()
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.LightCyan
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel3.Location = New System.Drawing.Point(0, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(1199, 722)
+        Me.Panel3.TabIndex = 2
         '
         'FormWard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(926, 530)
+        Me.ClientSize = New System.Drawing.Size(1199, 722)
+        Me.Controls.Add(Me.Panel3)
         Me.Name = "FormWard"
         Me.Text = "FormWard"
         Me.ResumeLayout(False)
 
     End Sub
+
+    Friend WithEvents Panel3 As Panel
 End Class
