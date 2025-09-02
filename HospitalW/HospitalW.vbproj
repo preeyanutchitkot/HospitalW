@@ -73,6 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAppointments.Designer.vb">
+      <DependentUpon>FormAppointments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAppointments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBill.Designer.vb">
+      <DependentUpon>FormBill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormBill.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormHome.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -80,10 +92,112 @@
       <DependentUpon>FormHome.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormItem.Designer.vb">
+      <DependentUpon>FormItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormItemStock.Designer.vb">
+      <DependentUpon>FormItemStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormItemStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormItem_Report.Designer.vb">
+      <DependentUpon>FormItem_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormItem_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJob_Experience.Designer.vb">
+      <DependentUpon>FormJob_Experience.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormJob_Experience.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLocal_doctor.Designer.vb">
+      <DependentUpon>FormLocal_doctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLocal_doctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMedecine.Designer.vb">
+      <DependentUpon>FormMedecine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMedecine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOutPatient.Designer.vb">
+      <DependentUpon>FormOutPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOutPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPatient.Designer.vb">
+      <DependentUpon>FormPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPayment.Designer.vb">
+      <DependentUpon>FormPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProduct.Designer.vb">
+      <DependentUpon>FormProduct.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormProduct.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport Bill.Designer.vb">
+      <DependentUpon>FormReport Bill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormReport Bill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport_Item.Designer.vb">
+      <DependentUpon>FormReport_Item.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormReport_Item.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReport_Medecine.Designer.vb">
+      <DependentUpon>FormReport_Medecine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormReport_Medecine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRequistion.Designer.vb">
+      <DependentUpon>FormRequistion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRequistion.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormShifting.Designer.vb">
       <DependentUpon>FormShifting.vb</DependentUpon>
     </Compile>
     <Compile Include="FormShifting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStaff.Designer.vb">
+      <DependentUpon>FormStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSupplier.Designer.vb">
+      <DependentUpon>FormSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTreatment.Designer.vb">
+      <DependentUpon>FormTreatment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTreatment.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormWard.Designer.vb">
@@ -108,13 +222,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SearchStaff.Designer.vb">
+      <DependentUpon>SearchStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormAppointments.resx">
+      <DependentUpon>FormAppointments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBill.resx">
+      <DependentUpon>FormBill.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormShifting.resx">
-      <DependentUpon>FormShifting.vb</DependentUpon>
+    <EmbeddedResource Include="FormItem_Report.resx">
+      <DependentUpon>FormItem_Report.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormWard.resx">
       <DependentUpon>FormWard.vb</DependentUpon>
