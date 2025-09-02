@@ -323,6 +323,15 @@
     <EmbeddedResource Include="FormOutPatient.resx">
       <DependentUpon>FormOutPatient.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPatient.resx">
+      <DependentUpon>FormPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRequistion.resx">
+      <DependentUpon>FormRequistion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormShifting.resx">
+      <DependentUpon>FormShifting.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormWard.resx">
       <DependentUpon>FormWard.vb</DependentUpon>
     </EmbeddedResource>

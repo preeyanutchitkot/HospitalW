@@ -22,514 +22,477 @@ Partial Class FormPatient
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Ward = New Label()
-        Panel2 = New Panel()
-        Button9 = New Button()
-        Label11 = New Label()
-        TextBox8 = New TextBox()
-        Button8 = New Button()
-        TableLayoutPanel1 = New TableLayoutPanel()
-        Button1 = New Button()
-        Button2 = New Button()
-        Button3 = New Button()
-        ComboBox4 = New ComboBox()
-        ComboBox3 = New ComboBox()
-        ComboBox2 = New ComboBox()
-        TextBox7 = New TextBox()
-        TextBox4 = New TextBox()
-        ComboBox1 = New ComboBox()
-        TextBox6 = New TextBox()
-        TextBox5 = New TextBox()
-        TextBox3 = New TextBox()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
-        Label13 = New Label()
-        Label12 = New Label()
-        DateTimePicker1 = New DateTimePicker()
-        Label10 = New Label()
-        Label9 = New Label()
-        Label8 = New Label()
-        Label7 = New Label()
-        Label6 = New Label()
-        Label5 = New Label()
-        Label4 = New Label()
-        Label3 = New Label()
-        Label2 = New Label()
-        Label1 = New Label()
-        Button7 = New Button()
-        Button6 = New Button()
-        Button5 = New Button()
-        Button4 = New Button()
-        Button10 = New Button()
-        Panel2.SuspendLayout()
-        TableLayoutPanel1.SuspendLayout()
-        SuspendLayout()
-        ' 
-        ' Ward
-        ' 
-        Ward.BackColor = SystemColors.ButtonHighlight
-        Ward.Font = New Font("Segoe UI Semibold", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Ward.Location = New Point(44, 28)
-        Ward.Margin = New Padding(4, 0, 4, 0)
-        Ward.Name = "Ward"
-        Ward.Size = New Size(167, 48)
-        Ward.TabIndex = 1
-        Ward.Text = "Patient"
-        Ward.TextAlign = ContentAlignment.MiddleCenter
-        ' 
-        ' Panel2
-        ' 
-        Panel2.BackColor = SystemColors.ButtonHighlight
-        Panel2.Controls.Add(Button9)
-        Panel2.Controls.Add(Label11)
-        Panel2.Controls.Add(TextBox8)
-        Panel2.Controls.Add(Button8)
-        Panel2.Controls.Add(TableLayoutPanel1)
-        Panel2.Controls.Add(ComboBox4)
-        Panel2.Controls.Add(ComboBox3)
-        Panel2.Controls.Add(ComboBox2)
-        Panel2.Controls.Add(TextBox7)
-        Panel2.Controls.Add(TextBox4)
-        Panel2.Controls.Add(ComboBox1)
-        Panel2.Controls.Add(TextBox6)
-        Panel2.Controls.Add(TextBox5)
-        Panel2.Controls.Add(TextBox3)
-        Panel2.Controls.Add(TextBox2)
-        Panel2.Controls.Add(TextBox1)
-        Panel2.Controls.Add(Label13)
-        Panel2.Controls.Add(Label12)
-        Panel2.Controls.Add(DateTimePicker1)
-        Panel2.Controls.Add(Label10)
-        Panel2.Controls.Add(Label9)
-        Panel2.Controls.Add(Label8)
-        Panel2.Controls.Add(Label7)
-        Panel2.Controls.Add(Label6)
-        Panel2.Controls.Add(Label5)
-        Panel2.Controls.Add(Label4)
-        Panel2.Controls.Add(Label3)
-        Panel2.Controls.Add(Label2)
-        Panel2.Controls.Add(Label1)
-        Panel2.Location = New Point(44, 92)
-        Panel2.Margin = New Padding(4)
-        Panel2.Name = "Panel2"
-        Panel2.Size = New Size(1370, 516)
-        Panel2.TabIndex = 2
-        ' 
-        ' Button9
-        ' 
-        Button9.BackColor = Color.PaleVioletRed
-        Button9.ForeColor = SystemColors.ControlLightLight
-        Button9.Location = New Point(1121, 182)
-        Button9.Margin = New Padding(4)
-        Button9.Name = "Button9"
-        Button9.Size = New Size(55, 36)
-        Button9.TabIndex = 45
-        Button9.Text = "..."
-        Button9.UseVisualStyleBackColor = False
-        ' 
-        ' Label11
-        ' 
-        Label11.AutoSize = True
-        Label11.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label11.Location = New Point(641, 282)
-        Label11.Margin = New Padding(4, 0, 4, 0)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(67, 24)
-        Label11.TabIndex = 33
-        Label11.Text = "Status:"
-        ' 
-        ' TextBox8
-        ' 
-        TextBox8.Location = New Point(858, 182)
-        TextBox8.Margin = New Padding(4)
-        TextBox8.Multiline = True
-        TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(255, 36)
-        TextBox8.TabIndex = 32
-        ' 
-        ' Button8
-        ' 
-        Button8.BackColor = Color.HotPink
-        Button8.Location = New Point(1067, 369)
-        Button8.Margin = New Padding(4)
-        Button8.Name = "Button8"
-        Button8.Size = New Size(132, 47)
-        Button8.TabIndex = 27
-        Button8.Text = "Search"
-        Button8.UseVisualStyleBackColor = False
-        ' 
-        ' TableLayoutPanel1
-        ' 
-        TableLayoutPanel1.ColumnCount = 3
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 33.3333321F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 33.3333321F))
-        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 33.3333321F))
-        TableLayoutPanel1.Controls.Add(Button1, 0, 0)
-        TableLayoutPanel1.Controls.Add(Button2, 1, 0)
-        TableLayoutPanel1.Controls.Add(Button3, 2, 0)
-        TableLayoutPanel1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TableLayoutPanel1.Location = New Point(638, 365)
-        TableLayoutPanel1.Margin = New Padding(4)
-        TableLayoutPanel1.Name = "TableLayoutPanel1"
-        TableLayoutPanel1.RowCount = 1
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
-        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Absolute, 55F))
-        TableLayoutPanel1.Size = New Size(409, 55)
-        TableLayoutPanel1.TabIndex = 26
-        ' 
-        ' Button1
-        ' 
-        Button1.BackColor = Color.FromArgb(CByte(128), CByte(255), CByte(128))
-        Button1.Dock = DockStyle.Fill
-        Button1.Font = New Font("Segoe UI", 10.2F)
-        Button1.Location = New Point(4, 4)
-        Button1.Margin = New Padding(4)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(128, 47)
-        Button1.TabIndex = 0
-        Button1.Text = "Add"
-        Button1.UseVisualStyleBackColor = False
-        ' 
-        ' Button2
-        ' 
-        Button2.BackColor = Color.Yellow
-        Button2.Dock = DockStyle.Fill
-        Button2.Font = New Font("Segoe UI", 10.2F)
-        Button2.Location = New Point(140, 4)
-        Button2.Margin = New Padding(4)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(128, 47)
-        Button2.TabIndex = 1
-        Button2.Text = "Edit"
-        Button2.UseVisualStyleBackColor = False
-        ' 
-        ' Button3
-        ' 
-        Button3.BackColor = Color.Red
-        Button3.Dock = DockStyle.Fill
-        Button3.Font = New Font("Segoe UI", 10.2F)
-        Button3.ForeColor = SystemColors.ButtonHighlight
-        Button3.Location = New Point(276, 4)
-        Button3.Margin = New Padding(4)
-        Button3.Name = "Button3"
-        Button3.Size = New Size(129, 47)
-        Button3.TabIndex = 2
-        Button3.Text = "Delete"
-        Button3.UseVisualStyleBackColor = False
-        ' 
-        ' ComboBox4
-        ' 
-        ComboBox4.FormattingEnabled = True
-        ComboBox4.Location = New Point(285, 235)
-        ComboBox4.Margin = New Padding(4)
-        ComboBox4.Name = "ComboBox4"
-        ComboBox4.Size = New Size(255, 33)
-        ComboBox4.TabIndex = 25
-        ' 
-        ' ComboBox3
-        ' 
-        ComboBox3.FormattingEnabled = True
-        ComboBox3.Location = New Point(858, 228)
-        ComboBox3.Margin = New Padding(4)
-        ComboBox3.Name = "ComboBox3"
-        ComboBox3.Size = New Size(255, 33)
-        ComboBox3.TabIndex = 24
-        ' 
-        ' ComboBox2
-        ' 
-        ComboBox2.FormattingEnabled = True
-        ComboBox2.Location = New Point(858, 273)
-        ComboBox2.Margin = New Padding(4)
-        ComboBox2.Name = "ComboBox2"
-        ComboBox2.Size = New Size(255, 33)
-        ComboBox2.TabIndex = 23
-        ' 
-        ' TextBox7
-        ' 
-        TextBox7.Location = New Point(857, 131)
-        TextBox7.Margin = New Padding(4)
-        TextBox7.Multiline = True
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(255, 36)
-        TextBox7.TabIndex = 22
-        ' 
-        ' TextBox4
-        ' 
-        TextBox4.Location = New Point(857, 86)
-        TextBox4.Margin = New Padding(4)
-        TextBox4.Multiline = True
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(255, 36)
-        TextBox4.TabIndex = 21
-        ' 
-        ' ComboBox1
-        ' 
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(285, 187)
-        ComboBox1.Margin = New Padding(4)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(255, 33)
-        ComboBox1.TabIndex = 20
-        ' 
-        ' TextBox6
-        ' 
-        TextBox6.Location = New Point(285, 276)
-        TextBox6.Margin = New Padding(4)
-        TextBox6.Multiline = True
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(255, 36)
-        TextBox6.TabIndex = 19
-        ' 
-        ' TextBox5
-        ' 
-        TextBox5.Location = New Point(857, 41)
-        TextBox5.Margin = New Padding(4)
-        TextBox5.Multiline = True
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(255, 36)
-        TextBox5.TabIndex = 18
-        ' 
-        ' TextBox3
-        ' 
-        TextBox3.Location = New Point(285, 325)
-        TextBox3.Margin = New Padding(4)
-        TextBox3.Multiline = True
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(255, 36)
-        TextBox3.TabIndex = 16
-        ' 
-        ' TextBox2
-        ' 
-        TextBox2.Location = New Point(285, 90)
-        TextBox2.Margin = New Padding(4)
-        TextBox2.Multiline = True
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(255, 36)
-        TextBox2.TabIndex = 15
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.Location = New Point(285, 41)
-        TextBox1.Margin = New Padding(4)
-        TextBox1.Multiline = True
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(255, 36)
-        TextBox1.TabIndex = 14
-        ' 
-        ' Label13
-        ' 
-        Label13.AutoSize = True
-        Label13.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label13.Location = New Point(638, 186)
-        Label13.Margin = New Padding(4, 0, 4, 0)
-        Label13.Name = "Label13"
-        Label13.Size = New Size(145, 24)
-        Label13.TabIndex = 13
-        Label13.Text = "Local Doctor ID:"
-        ' 
-        ' Label12
-        ' 
-        Label12.AutoSize = True
-        Label12.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label12.Location = New Point(638, 237)
-        Label12.Margin = New Padding(4, 0, 4, 0)
-        Label12.Name = "Label12"
-        Label12.Size = New Size(146, 24)
-        Label12.TabIndex = 12
-        Label12.Text = "Type Of Patient:"
-        ' 
-        ' DateTimePicker1
-        ' 
-        DateTimePicker1.Location = New Point(285, 140)
-        DateTimePicker1.Margin = New Padding(4)
-        DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(255, 31)
-        DateTimePicker1.TabIndex = 10
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label10.Location = New Point(638, 138)
-        Label10.Margin = New Padding(4, 0, 4, 0)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(38, 24)
-        Label10.TabIndex = 9
-        Label10.Text = "Tel:"
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label9.Location = New Point(641, 46)
-        Label9.Margin = New Padding(4, 0, 4, 0)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(161, 24)
-        Label9.TabIndex = 8
-        Label9.Text = "Logical Doctor ID:"
-        ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label8.Location = New Point(105, 288)
-        Label8.Margin = New Padding(4, 0, 4, 0)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(128, 24)
-        Label8.TabIndex = 7
-        Label8.Text = "Date Register:"
-        ' 
-        ' Label7
-        ' 
-        Label7.AutoSize = True
-        Label7.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label7.Location = New Point(638, 93)
-        Label7.Margin = New Padding(4, 0, 4, 0)
-        Label7.Name = "Label7"
-        Label7.Size = New Size(82, 24)
-        Label7.TabIndex = 6
-        Label7.Text = "Address:"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label6.Location = New Point(105, 244)
-        Label6.Margin = New Padding(4, 0, 4, 0)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(133, 24)
-        Label6.TabIndex = 5
-        Label6.Text = "Marital Status:"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label5.Location = New Point(105, 196)
-        Label5.Margin = New Padding(4, 0, 4, 0)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(44, 24)
-        Label5.TabIndex = 4
-        Label5.Text = "Sex:"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label4.Location = New Point(102, 140)
-        Label4.Margin = New Padding(4, 0, 4, 0)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(127, 24)
-        Label4.TabIndex = 3
-        Label4.Text = "Date Of Birth:"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label3.Location = New Point(105, 329)
-        Label3.Margin = New Padding(4, 0, 4, 0)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(120, 24)
-        Label3.TabIndex = 2
-        Label3.Text = "Insurance ID:"
-        ' 
-        ' Label2
-        ' 
-        Label2.AutoSize = True
-        Label2.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label2.Location = New Point(102, 90)
-        Label2.Margin = New Padding(4, 0, 4, 0)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(65, 24)
-        Label2.TabIndex = 1
-        Label2.Text = "Name:"
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Font = New Font("Segoe UI Variable Small Semibol", 10.8F, FontStyle.Bold)
-        Label1.Location = New Point(102, 41)
-        Label1.Margin = New Padding(4, 0, 4, 0)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(98, 24)
-        Label1.TabIndex = 0
-        Label1.Text = "Patient ID:"
-        ' 
-        ' Button7
-        ' 
-        Button7.BackColor = Color.Pink
-        Button7.Location = New Point(1174, 24)
-        Button7.Margin = New Padding(4)
-        Button7.Name = "Button7"
-        Button7.Size = New Size(189, 52)
-        Button7.TabIndex = 31
-        Button7.Text = "LocalDoctor"
-        Button7.UseVisualStyleBackColor = False
-        ' 
-        ' Button6
-        ' 
-        Button6.BackColor = Color.Pink
-        Button6.Location = New Point(948, 24)
-        Button6.Margin = New Padding(4)
-        Button6.Name = "Button6"
-        Button6.Size = New Size(201, 52)
-        Button6.TabIndex = 30
-        Button6.Text = "Next of Kin"
-        Button6.UseVisualStyleBackColor = False
-        ' 
-        ' Button5
-        ' 
-        Button5.BackColor = Color.Pink
-        Button5.Location = New Point(755, 24)
-        Button5.Margin = New Padding(4)
-        Button5.Name = "Button5"
-        Button5.Size = New Size(162, 52)
-        Button5.TabIndex = 29
-        Button5.Text = "Add Kin"
-        Button5.UseVisualStyleBackColor = False
-        ' 
-        ' Button4
-        ' 
-        Button4.BackColor = Color.Pink
-        Button4.Location = New Point(546, 24)
-        Button4.Margin = New Padding(4)
-        Button4.Name = "Button4"
-        Button4.Size = New Size(185, 52)
-        Button4.TabIndex = 28
-        Button4.Text = "OutPatient"
-        Button4.UseVisualStyleBackColor = False
-        ' 
-        ' Button10
-        ' 
-        Button10.BackColor = Color.Pink
-        Button10.Location = New Point(342, 24)
-        Button10.Name = "Button10"
-        Button10.Size = New Size(176, 52)
-        Button10.TabIndex = 32
-        Button10.Text = "Patient Insurance"
-        Button10.UseVisualStyleBackColor = False
-        ' 
-        ' FormPatient
-        ' 
-        AutoScaleDimensions = New SizeF(10F, 25F)
-        AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.LightBlue
-        ClientSize = New Size(1499, 1175)
-        Controls.Add(Button10)
-        Controls.Add(Panel2)
-        Controls.Add(Ward)
-        Controls.Add(Button4)
-        Controls.Add(Button7)
-        Controls.Add(Button5)
-        Controls.Add(Button6)
-        Margin = New Padding(4)
-        Name = "FormPatient"
-        Text = "FormPatient"
-        Panel2.ResumeLayout(False)
-        Panel2.PerformLayout()
-        TableLayoutPanel1.ResumeLayout(False)
-        ResumeLayout(False)
+        Me.Ward = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Panel2.SuspendLayout()
+        Me.TableLayoutPanel1.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'Ward
+        '
+        Me.Ward.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Ward.Font = New System.Drawing.Font("Segoe UI Semibold", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Ward.Location = New System.Drawing.Point(35, 18)
+        Me.Ward.Name = "Ward"
+        Me.Ward.Size = New System.Drawing.Size(134, 31)
+        Me.Ward.TabIndex = 1
+        Me.Ward.Text = "Patient"
+        Me.Ward.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Panel2.Controls.Add(Me.Button9)
+        Me.Panel2.Controls.Add(Me.Label11)
+        Me.Panel2.Controls.Add(Me.TextBox8)
+        Me.Panel2.Controls.Add(Me.Button8)
+        Me.Panel2.Controls.Add(Me.TableLayoutPanel1)
+        Me.Panel2.Controls.Add(Me.ComboBox4)
+        Me.Panel2.Controls.Add(Me.ComboBox3)
+        Me.Panel2.Controls.Add(Me.ComboBox2)
+        Me.Panel2.Controls.Add(Me.TextBox7)
+        Me.Panel2.Controls.Add(Me.TextBox4)
+        Me.Panel2.Controls.Add(Me.ComboBox1)
+        Me.Panel2.Controls.Add(Me.TextBox6)
+        Me.Panel2.Controls.Add(Me.TextBox5)
+        Me.Panel2.Controls.Add(Me.TextBox3)
+        Me.Panel2.Controls.Add(Me.TextBox2)
+        Me.Panel2.Controls.Add(Me.TextBox1)
+        Me.Panel2.Controls.Add(Me.Label13)
+        Me.Panel2.Controls.Add(Me.Label12)
+        Me.Panel2.Controls.Add(Me.DateTimePicker1)
+        Me.Panel2.Controls.Add(Me.Label10)
+        Me.Panel2.Controls.Add(Me.Label9)
+        Me.Panel2.Controls.Add(Me.Label8)
+        Me.Panel2.Controls.Add(Me.Label7)
+        Me.Panel2.Controls.Add(Me.Label6)
+        Me.Panel2.Controls.Add(Me.Label5)
+        Me.Panel2.Controls.Add(Me.Label4)
+        Me.Panel2.Controls.Add(Me.Label3)
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Controls.Add(Me.Label1)
+        Me.Panel2.Location = New System.Drawing.Point(35, 59)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(1096, 330)
+        Me.Panel2.TabIndex = 2
+        '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.PaleVioletRed
+        Me.Button9.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Button9.Location = New System.Drawing.Point(897, 111)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(44, 33)
+        Me.Button9.TabIndex = 45
+        Me.Button9.Text = "..."
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label11.Location = New System.Drawing.Point(513, 180)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(67, 24)
+        Me.Label11.TabIndex = 33
+        Me.Label11.Text = "Status:"
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(686, 116)
+        Me.TextBox8.Multiline = True
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(205, 24)
+        Me.TextBox8.TabIndex = 32
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.HotPink
+        Me.Button8.Location = New System.Drawing.Point(854, 236)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(106, 30)
+        Me.Button8.TabIndex = 27
+        Me.Button8.Text = "Search"
+        Me.Button8.UseVisualStyleBackColor = False
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.ColumnCount = 3
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333!))
+        Me.TableLayoutPanel1.Controls.Add(Me.Button1, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.Button2, 1, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.Button3, 2, 0)
+        Me.TableLayoutPanel1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(510, 234)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(327, 35)
+        Me.TableLayoutPanel1.TabIndex = 26
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Button1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 10.2!)
+        Me.Button1.Location = New System.Drawing.Point(3, 3)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(103, 29)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Add"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Yellow
+        Me.Button2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 10.2!)
+        Me.Button2.Location = New System.Drawing.Point(112, 3)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(103, 29)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Edit"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Red
+        Me.Button3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Button3.Font = New System.Drawing.Font("Segoe UI", 10.2!)
+        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button3.Location = New System.Drawing.Point(221, 3)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(103, 29)
+        Me.Button3.TabIndex = 2
+        Me.Button3.Text = "Delete"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Location = New System.Drawing.Point(228, 150)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(205, 24)
+        Me.ComboBox4.TabIndex = 25
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Location = New System.Drawing.Point(686, 146)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(205, 24)
+        Me.ComboBox3.TabIndex = 24
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Location = New System.Drawing.Point(686, 175)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(205, 24)
+        Me.ComboBox2.TabIndex = 23
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(686, 84)
+        Me.TextBox7.Multiline = True
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(205, 24)
+        Me.TextBox7.TabIndex = 22
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(686, 55)
+        Me.TextBox4.Multiline = True
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(205, 24)
+        Me.TextBox4.TabIndex = 21
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(228, 120)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(205, 24)
+        Me.ComboBox1.TabIndex = 20
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(228, 177)
+        Me.TextBox6.Multiline = True
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(205, 24)
+        Me.TextBox6.TabIndex = 19
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(686, 26)
+        Me.TextBox5.Multiline = True
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(205, 24)
+        Me.TextBox5.TabIndex = 18
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(228, 208)
+        Me.TextBox3.Multiline = True
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(205, 24)
+        Me.TextBox3.TabIndex = 16
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(228, 58)
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(205, 24)
+        Me.TextBox2.TabIndex = 15
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(228, 26)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(205, 24)
+        Me.TextBox1.TabIndex = 14
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label13.Location = New System.Drawing.Point(510, 119)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(145, 24)
+        Me.Label13.TabIndex = 13
+        Me.Label13.Text = "Local Doctor ID:"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label12.Location = New System.Drawing.Point(510, 152)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(146, 24)
+        Me.Label12.TabIndex = 12
+        Me.Label12.Text = "Type Of Patient:"
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(228, 90)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(205, 22)
+        Me.DateTimePicker1.TabIndex = 10
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label10.Location = New System.Drawing.Point(510, 88)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(38, 24)
+        Me.Label10.TabIndex = 9
+        Me.Label10.Text = "Tel:"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label9.Location = New System.Drawing.Point(513, 29)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(161, 24)
+        Me.Label9.TabIndex = 8
+        Me.Label9.Text = "Logical Doctor ID:"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label8.Location = New System.Drawing.Point(84, 184)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(128, 24)
+        Me.Label8.TabIndex = 7
+        Me.Label8.Text = "Date Register:"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label7.Location = New System.Drawing.Point(510, 60)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(82, 24)
+        Me.Label7.TabIndex = 6
+        Me.Label7.Text = "Address:"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label6.Location = New System.Drawing.Point(84, 156)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(133, 24)
+        Me.Label6.TabIndex = 5
+        Me.Label6.Text = "Marital Status:"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label5.Location = New System.Drawing.Point(84, 125)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(44, 24)
+        Me.Label5.TabIndex = 4
+        Me.Label5.Text = "Sex:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label4.Location = New System.Drawing.Point(82, 90)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(127, 24)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "Date Of Birth:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label3.Location = New System.Drawing.Point(84, 211)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(120, 24)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Insurance ID:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label2.Location = New System.Drawing.Point(82, 58)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(65, 24)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Name:"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Variable Small Semibol", 10.8!, System.Drawing.FontStyle.Bold)
+        Me.Label1.Location = New System.Drawing.Point(82, 26)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(98, 24)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Patient ID:"
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.Pink
+        Me.Button7.Location = New System.Drawing.Point(939, 15)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(151, 33)
+        Me.Button7.TabIndex = 31
+        Me.Button7.Text = "LocalDoctor"
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.Pink
+        Me.Button6.Location = New System.Drawing.Point(758, 15)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(161, 33)
+        Me.Button6.TabIndex = 30
+        Me.Button6.Text = "Next of Kin"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.Pink
+        Me.Button5.Location = New System.Drawing.Point(604, 15)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(130, 33)
+        Me.Button5.TabIndex = 29
+        Me.Button5.Text = "Add Kin"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.Pink
+        Me.Button4.Location = New System.Drawing.Point(437, 15)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(148, 33)
+        Me.Button4.TabIndex = 28
+        Me.Button4.Text = "OutPatient"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.Pink
+        Me.Button10.Location = New System.Drawing.Point(274, 15)
+        Me.Button10.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(141, 33)
+        Me.Button10.TabIndex = 32
+        Me.Button10.Text = "Patient Insurance"
+        Me.Button10.UseVisualStyleBackColor = False
+        '
+        'FormPatient
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.LightBlue
+        Me.ClientSize = New System.Drawing.Size(1199, 675)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Ward)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button6)
+        Me.Name = "FormPatient"
+        Me.Text = "FormPatient"
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
+        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
     End Sub
     Friend WithEvents Ward As Label
     Friend WithEvents Panel2 As Panel
