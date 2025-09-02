@@ -134,6 +134,12 @@
     <Compile Include="FormOutPatient.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formpatient Insurance.Designer.vb">
+      <DependentUpon>Formpatient Insurance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formpatient Insurance.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormPatient.Designer.vb">
       <DependentUpon>FormPatient.vb</DependentUpon>
     </Compile>
@@ -222,10 +228,82 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Patient Waiting List Report for Treatment.Designer.vb">
+      <DependentUpon>Patient Waiting List Report for Treatment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Patient Waiting List Report for Treatment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Qualification.Designer.vb">
+      <DependentUpon>Qualification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Qualification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report of Patients by Department.Designer.vb">
+      <DependentUpon>Report of Patients by Department.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report of Patients by Department.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportMedecine.Designer.vb">
+      <DependentUpon>ReportMedecine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportMedecine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchItem.Designer.vb">
+      <DependentUpon>SearchItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Searchmedical.Designer.vb">
+      <DependentUpon>Searchmedical.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Searchmedical.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchNextofKin.Designer.vb">
+      <DependentUpon>SearchNextofKin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchNextofKin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchPatient.Designer.vb">
+      <DependentUpon>SearchPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchProficency.Designer.vb">
+      <DependentUpon>SearchProficency.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchProficency.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchQualification.Designer.vb">
+      <DependentUpon>SearchQualification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchQualification.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SearchStaff.Designer.vb">
       <DependentUpon>SearchStaff.vb</DependentUpon>
     </Compile>
     <Compile Include="SearchStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchWard.Designer.vb">
+      <DependentUpon>SearchWard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchWard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff Assignment Report.Designer.vb">
+      <DependentUpon>Staff Assignment Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Assignment Report.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -241,6 +319,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormItem_Report.resx">
       <DependentUpon>FormItem_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOutPatient.resx">
+      <DependentUpon>FormOutPatient.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormWard.resx">
       <DependentUpon>FormWard.vb</DependentUpon>
